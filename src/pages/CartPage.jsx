@@ -186,7 +186,7 @@ const CartPage = () => {
                     </>
                   )}
                   <div className="d-flex justify-content-center">
-                    {selectedAddress && cart.length>1 ? (
+                    {selectedAddress && cart.length>0 ? (
                       <Link to="/order" state={orderDetails} className="btn btn-primary" >
                         Checkout
                       </Link>
