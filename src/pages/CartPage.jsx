@@ -146,7 +146,7 @@ const CartPage = () => {
                       aria-describedby="button-addon2"
                     />
                     <button className="btn btn-outline-primary" type="button" id="button-addon2" onClick={addressSubmit}>
-                      Button
+                      Add
                     </button>
                   </div>
                   <div>
